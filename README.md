@@ -1,6 +1,6 @@
 # IRCTC Automation Script
 
-This project contains a Selenium script to automate the process of booking train tickets on the IRCTC website. The script navigates through the train search, selects train classes, modifies the search, and proceeds to the booking process.
+This project contains a Selenium script to automate booking train ticket booking on the IRCTC website. The script navigates through the train search, selects train classes, modifies the search, and proceeds to the booking process.
 
 ## Prerequisites
 
@@ -138,10 +138,10 @@ ok1_field.click()
 
 ```python
 username_field = driver.find_element(By.XPATH, '//*[@id="userId"]')
-username_field.send_keys('shawrajdeep00')
+username_field.send_keys('shawrajxxxxxx')
 
 password_field = driver.find_element(By.XPATH, '//*[@id="pwd"]')
-password_field.send_keys('abcd1234@123')
+password_field.send_keys('xxxxxxxxxxxx')
 
 captcha = driver.find_element(By.XPATH, '//*[@id="nlpAnswer"]')
 sleep(15)
